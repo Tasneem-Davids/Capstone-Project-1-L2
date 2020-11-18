@@ -1,0 +1,40 @@
+.snake-container {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.grid {
+  width: 500px;
+  height: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border: 1px solid darkgreen;
+}
+
+.gridItem {
+  outline: 1px solid darkgreen;
+  width: 20px;
+  height: 20px;
+}
+
+.is-food {
+  background-color: rgb(179, 175, 175);
+}
+
+.is-head {
+  background-color: rgb(16, 168, 16);
+}
+
+.is-tail {
+  background-color: rgb(99, 163, 3);
+}
+
+.grid-message {
+  width: 100%;
+  text-align: center;
+}
